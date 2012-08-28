@@ -20,8 +20,10 @@ jsdom.env({
     done: function(errors, window) {
         var $ = window.$;
         console.log('HN Links');
+        console.log(' mooncake modify to ciic  ');
         $('td.title:not(:last) a').each(function() {
-            console.log('abc test -', $(this).text());
+            console.log(' -', $(this).text());
+
         });
     }
 });
